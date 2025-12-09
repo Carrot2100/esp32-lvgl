@@ -1,0 +1,51 @@
+Command: cmake -G Ninja -DPYTHON_DEPS_CHECKED=1 -DPYTHON=e:\esp32\esp-tools\python_env\idf5.5_py3.11_env\Scripts\python.exe -DESP_PLATFORM=1 -DIDF_TARGET=esp32s3 -DCCACHE_ENABLE=0 C:\Users\27236\Desktop\lv_port_esp32
+info: INFO: Symbol LV_I2C defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    C:\Users\27236\Desktop\lv_port_esp32\components\lvgl_esp32_drivers\lvgl_tft\Kconfig:1001
+    C:\Users\27236\Desktop\lv_port_esp32\components\lvgl_esp32_drivers\lvgl_touch\Kconfig:485
+info: INFO: Symbol LV_TOUCH_SPI_MISO defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    C:\Users\27236\Desktop\lv_port_esp32\components\lvgl_esp32_drivers\lvgl_touch\Kconfig:83
+    C:\Users\27236\Desktop\lv_port_esp32\components\lvgl_esp32_drivers\lvgl_touch\Kconfig:213
+info: INFO: Symbol LV_TOUCH_SPI_MOSI defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    C:\Users\27236\Desktop\lv_port_esp32\components\lvgl_esp32_drivers\lvgl_touch\Kconfig:224
+    C:\Users\27236\Desktop\lv_port_esp32\components\lvgl_esp32_drivers\lvgl_touch\Kconfig:92
+info: INFO: Symbol LV_TOUCH_SPI_CLK defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    C:\Users\27236\Desktop\lv_port_esp32\components\lvgl_esp32_drivers\lvgl_touch\Kconfig:236
+    C:\Users\27236\Desktop\lv_port_esp32\components\lvgl_esp32_drivers\lvgl_touch\Kconfig:101
+info: INFO: Symbol LV_TOUCH_SPI_CS defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    C:\Users\27236\Desktop\lv_port_esp32\components\lvgl_esp32_drivers\lvgl_touch\Kconfig:245
+    C:\Users\27236\Desktop\lv_port_esp32\components\lvgl_esp32_drivers\lvgl_touch\Kconfig:109
+info: INFO: Symbol LV_TOUCH_X_MIN defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    C:\Users\27236\Desktop\lv_port_esp32\components\lvgl_esp32_drivers\lvgl_touch\Kconfig:376
+    C:\Users\27236\Desktop\lv_port_esp32\components\lvgl_esp32_drivers\lvgl_touch\Kconfig:336
+    C:\Users\27236\Desktop\lv_port_esp32\components\lvgl_esp32_drivers\lvgl_touch\Kconfig:257
+    C:\Users\27236\Desktop\lv_port_esp32\components\lvgl_esp32_drivers\lvgl_touch\Kconfig:129
+info: INFO: Symbol LV_TOUCH_Y_MIN defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    C:\Users\27236\Desktop\lv_port_esp32\components\lvgl_esp32_drivers\lvgl_touch\Kconfig:135
+    C:\Users\27236\Desktop\lv_port_esp32\components\lvgl_esp32_drivers\lvgl_touch\Kconfig:341
+    C:\Users\27236\Desktop\lv_port_esp32\components\lvgl_esp32_drivers\lvgl_touch\Kconfig:382
+    C:\Users\27236\Desktop\lv_port_esp32\components\lvgl_esp32_drivers\lvgl_touch\Kconfig:262
+info: INFO: Symbol LV_TOUCH_X_MAX defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    C:\Users\27236\Desktop\lv_port_esp32\components\lvgl_esp32_drivers\lvgl_touch\Kconfig:388
+    C:\Users\27236\Desktop\lv_port_esp32\components\lvgl_esp32_drivers\lvgl_touch\Kconfig:346
+    C:\Users\27236\Desktop\lv_port_esp32\components\lvgl_esp32_drivers\lvgl_touch\Kconfig:267
+    C:\Users\27236\Desktop\lv_port_esp32\components\lvgl_esp32_drivers\lvgl_touch\Kconfig:141
+info: INFO: Symbol LV_TOUCH_Y_MAX defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    C:\Users\27236\Desktop\lv_port_esp32\components\lvgl_esp32_drivers\lvgl_touch\Kconfig:272
+    C:\Users\27236\Desktop\lv_port_esp32\components\lvgl_esp32_drivers\lvgl_touch\Kconfig:147
+    C:\Users\27236\Desktop\lv_port_esp32\components\lvgl_esp32_drivers\lvgl_touch\Kconfig:394
+    C:\Users\27236\Desktop\lv_port_esp32\components\lvgl_esp32_drivers\lvgl_touch\Kconfig:351
+info: INFO: Symbol LV_TOUCH_XY_SWAP defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    C:\Users\27236\Desktop\lv_port_esp32\components\lvgl_esp32_drivers\lvgl_touch\Kconfig:356
+    C:\Users\27236\Desktop\lv_port_esp32\components\lvgl_esp32_drivers\lvgl_touch\Kconfig:277
+    C:\Users\27236\Desktop\lv_port_esp32\components\lvgl_esp32_drivers\lvgl_touch\Kconfig:153
+    C:\Users\27236\Desktop\lv_port_esp32\components\lvgl_esp32_drivers\lvgl_touch\Kconfig:400
+info: INFO: Symbol LV_TOUCH_INVERT_X defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    C:\Users\27236\Desktop\lv_port_esp32\components\lvgl_esp32_drivers\lvgl_touch\Kconfig:282
+    C:\Users\27236\Desktop\lv_port_esp32\components\lvgl_esp32_drivers\lvgl_touch\Kconfig:158
+    C:\Users\27236\Desktop\lv_port_esp32\components\lvgl_esp32_drivers\lvgl_touch\Kconfig:361
+    C:\Users\27236\Desktop\lv_port_esp32\components\lvgl_esp32_drivers\lvgl_touch\Kconfig:405
+info: INFO: Symbol LV_TOUCH_INVERT_Y defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    C:\Users\27236\Desktop\lv_port_esp32\components\lvgl_esp32_drivers\lvgl_touch\Kconfig:287
+    C:\Users\27236\Desktop\lv_port_esp32\components\lvgl_esp32_drivers\lvgl_touch\Kconfig:163
+    C:\Users\27236\Desktop\lv_port_esp32\components\lvgl_esp32_drivers\lvgl_touch\Kconfig:410
+    C:\Users\27236\Desktop\lv_port_esp32\components\lvgl_esp32_drivers\lvgl_touch\Kconfig:366

@@ -1,0 +1,17 @@
+{
+  "idf.openOcdConfigs": [
+    "board/esp32s3-builtin.cfg"
+  ],
+  "idf.customExtraVars": {
+    "IDF_TARGET": "esp32s3"
+  },
+  "clangd.path": "e:\\esp32\\esp-tools\\tools\\esp-clang\\esp-19.1.2_20250312\\esp-clang\\bin\\clangd.exe",
+  "clangd.arguments": [
+    "--background-index",
+    "--query-driver=e:\\esp32\\esp-tools\\tools\\xtensa-esp-elf\\esp-14.2.0_20241119\\xtensa-esp-elf\\bin\\xtensa-esp32s3-elf-gcc.exe",
+    "--compile-commands-dir=c:\\Users\\27236\\Desktop\\lv_port_esp32\\build"
+  ],
+  "idf.espIdfPathWin": "e:\\esp32\\esp-idf\\v5.5.1\\esp-idf",
+  "idf.toolsPathWin": "e:\\esp32\\esp-tools",
+  "idf.pythonInstallPath": "e:\\esp32\\esp-tools\\tools\\idf-python\\3.11.2\\python.exe"
+}
